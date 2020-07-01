@@ -16279,16 +16279,30 @@ footer a:hover {
 #faq-wrapper .faq-box {
   padding: 60px;
   width: 50%;
-  height: 100%;
 }
 #faq-wrapper .faq-box h2 {
   font-size: 32px;
   margin-bottom: 30px;
 }
+#faq-wrapper .faq-box .faq-element {
+  margin: 25px 0px;
+}
+#faq-wrapper .faq-box .faq-element h3 {
+  font-size: 24px;
+  font-weight: normal;
+}
 #faq-wrapper .faq-box .faq-element .faq-question {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+#faq-wrapper .faq-box .faq-element p {
+  display: none;
+}
+#faq-wrapper .faq-box .faq-element.active p {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
 }
 #faq-wrapper .faq-box:first-child {
   background-color: #e8ebf1;

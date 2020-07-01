@@ -37234,7 +37234,12 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
 
-$(document).ready(function () {// alert("ciao");
+$(document).ready(function () {
+  $(".faq-element i").on("click", function () {
+    $(this).toggleClass("fa-plus fa-minus");
+    var current_faq = $(this).closest(".faq-element");
+    current_faq.toggleClass("active");
+  });
 });
 
 /***/ }),

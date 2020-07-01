@@ -59,7 +59,7 @@
                 <p>Trovi tutte le informazioni sul prezzo nell'apposita sezione della pagina corso</p>
             </div>
         </div>
-        <div class="faq-box float-left">
+        <div class="faq-box float-right">
             <h2>Dopo il corso</h2>
             <div class="faq-element">
                 <div class="faq-question">

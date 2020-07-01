@@ -28,18 +28,34 @@
     .faq-box {
         padding: 60px;
         width: 50%;
-        height: 100%;
 
         h2 {
             font-size: 32px;
             margin-bottom: 30px;
         }
 
-        .faq-element{
-            .faq-question{
+        .faq-element {
+            margin: 25px 0px;
+
+            h3 {
+                font-size: 24px;
+                font-weight: normal;
+            }
+
+            .faq-question {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+            }
+
+            p {
+                display: none;
+            }
+
+            &.active p {
+                display: block;
+                font-size: 18px;
+                line-height: 30px;
             }
         }
     }

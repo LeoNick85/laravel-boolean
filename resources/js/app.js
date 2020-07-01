@@ -4,5 +4,10 @@ var $ = require('jquery');
 import "bootstrap";
 
 $(document).ready(function() {
-    // alert("ciao");
+    $(".faq-element i").on("click", function() {
+        $(this).toggleClass("fa-plus fa-minus");
+        var current_faq = $(this).closest(".faq-element");
+        current_faq.toggleClass("active");
+
+    });
 })
