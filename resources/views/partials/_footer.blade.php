@@ -12,16 +12,16 @@
             <div class="float-right footer-right">
                 <ul>
                     <li>
-                        <a href="#">Lezione gratuita</a>
+                        <a href=" {{ route('lezione')}} ">Lezione gratuita</a>
                     </li>
                     <li>
-                        <a href="#">Domande frequenti</a>
+                        <a href=" {{ route('faq')}} ">Domande frequenti</a>
                     </li>
                     <li>
-                        <a href="#">Privacy Policy</a>
+                        <a href=" {{ route('privacy')}} ">Privacy Policy</a>
                     </li>
                     <li>
-                        <a href="#">Lavora con noi</a>
+                        <a href=" {{ route('lavora')}} ">Lavora con noi</a>
                     </li>
                 </ul>
             </div>
@@ -29,7 +29,18 @@
         <hr>
     </div>
     <div class="footer-social">
-        <p>icone social</p>
+        <a href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#">
+            <i class="fab fa-youtube"></i>
+        </a>
     </div>
     <p>Boolean SRL - Piazzale Giovanni dalle Bande Nere, 9 - 20146, Milano - P.IVA: 10214930967</p>
 </footer>

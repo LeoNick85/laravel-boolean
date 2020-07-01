@@ -8,7 +8,9 @@
     </head>
     <body>
         @include('partials/_header')
-        @yield('content');
+        <main>
+            @yield('content')
+        </main>
         @include('partials/_footer')
     </body>
     <script src=" {{ asset('js/app.js')}}" charset="utf-8"></script>

@@ -1,0 +1,77 @@
+.bg-blue {
+    background-color: $main_color1;
+}
+
+.bg-grey {
+    background-color: $altbg_color;
+}
+
+#jumbo-home {
+    padding: 70px 70px;
+
+    & > .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #jumbo-left {
+        display: inline-block;
+        width: 50%;
+
+        h1{
+            font-size: 58px;
+        }
+    }
+
+    img {
+        width: 40%;
+    }
+
+    ul {
+        list-style-type: disc;
+    }
+}
+
+
+#employment-stats {
+    padding: 40px 0px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    font-size: 19px;
+    color: white;
+
+    .stats-box {
+        text-align: center;
+        width: 280px;
+
+        p:first-child {
+            font-weight: bold;
+            font-size: 50px;
+        }
+    }
+}
+
+#employment-partners {
+    padding: 20px 0px;
+    font-size: 19px;
+
+    .container{
+        color: #8e8e8e;
+
+        div{
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                width: 250px;
+            }
+        }
+    }
+}

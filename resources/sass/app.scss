@@ -1,6 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
+$fa-font-path: 'fonts';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+
 @import "partials/_variables.scss";
 
 @import "partials/_common.scss";
 @import "partials/_header.scss";
 @import "partials/_footer.scss";
+
+@import "partials/_homepage.scss";

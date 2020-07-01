@@ -35,4 +35,13 @@ footer {
     hr {
         border-color: white;
     }
+
+    i {
+        font-size: 45px;
+        margin: 15px;
+    }
+
+    a:hover {
+        color: $main_color2;
+    }
 }

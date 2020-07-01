@@ -36,3 +36,15 @@ Route::get('/assumi-studenti', function () {
 Route::get('/candidati', function () {
     return view('candidature');
 })->name('candidature');
+
+Route::get('/faq', function () {
+    return view('faq');
+})->name('faq');
+
+Route::get('/lavora-con-noi', function () {
+    return view('lavora');
+})->name('lavora');
+
+Route::get('/privacy-policy', function () {
+    return view('privacy');
+})->name('privacy');
