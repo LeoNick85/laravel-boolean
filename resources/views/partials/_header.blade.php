@@ -17,7 +17,7 @@
             <li class="{{ Request::route()->getName() == 'assunzioni' ? 'active' : ' '}}">
                 <a href="{{ route('assunzioni') }}">Assumi i nostri studenti</a>
             </li>
-            <li  class="btn-primary">
+            <li  class="btn-one">
                 <a href="{{ route('candidature') }}">Candidati ora</a>
             </li>
         </ul>

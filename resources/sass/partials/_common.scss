@@ -1,7 +1,17 @@
-.btn-primary {
+.btn-one {
     background-color: $main_color2;
     color: white;
     border-radius: 3px;
+}
+
+.btn-one:hover {
+    background-color: #73d462;
+    border: 0px;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
 }
 
 ul {

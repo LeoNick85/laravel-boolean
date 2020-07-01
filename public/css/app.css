@@ -16074,10 +16074,19 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
-.btn-primary {
+.btn-one {
   background-color: #61ce4e;
   color: white;
   border-radius: 3px;
+}
+
+.btn-one:hover {
+  background-color: #73d462;
+  border: 0px;
+}
+.btn-one:hover a {
+  color: white;
+  text-decoration: none;
 }
 
 ul {
@@ -16243,4 +16252,49 @@ footer a:hover {
 }
 #employment-partners .container div img {
   width: 250px;
+}
+
+.container-faq {
+  margin: 0px 60px;
+}
+
+#faq-title {
+  padding: 50px 0px;
+  color: #1b3c59;
+}
+#faq-title h1 {
+  font-size: 44px;
+}
+#faq-title p {
+  font-size: 18px;
+  margin-top: 14px;
+}
+#faq-title a {
+  text-decoration: underline;
+}
+#faq-title a:hover {
+  color: inherit;
+}
+
+#faq-wrapper .faq-box {
+  padding: 60px;
+  width: 50%;
+  height: 100%;
+}
+#faq-wrapper .faq-box h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+#faq-wrapper .faq-box .faq-element .faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#faq-wrapper .faq-box:first-child {
+  background-color: #e8ebf1;
+  color: #1b3c59;
+}
+#faq-wrapper .faq-box:last-child {
+  background-color: #1b3c59;
+  color: white;
 }
