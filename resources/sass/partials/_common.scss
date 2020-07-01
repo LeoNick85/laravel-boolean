@@ -4,10 +4,33 @@
     border-radius: 3px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 a {
     color: inherit;
 }
 
 a:hover {
     text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
 }

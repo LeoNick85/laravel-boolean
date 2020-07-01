@@ -10934,12 +10934,35 @@ a.text-dark:focus {
   border-radius: 3px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 a {
   color: inherit;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }
 
 header {
@@ -10955,7 +10978,6 @@ header img {
 }
 
 header ul {
-  list-style-type: none;
   display: inline-block;
 }
 
@@ -10982,5 +11004,39 @@ header a {
 footer {
   background-color: #1b3c59;
   color: white;
+  padding: 70px 0px 30px 0px;
+  text-align: center;
+}
+
+footer .footer-left {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 15px;
+}
+
+footer .footer-left img {
+  width: 200px;
+}
+
+footer .footer-right {
+  text-align: right;
+}
+
+footer .footer-right ul {
+  padding-top: 20px;
+}
+
+footer .footer-right ul li a {
+  font-size: 20px;
+}
+
+footer .footer-right ul li a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+footer hr {
+  border-color: white;
 }
 

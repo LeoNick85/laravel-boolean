@@ -20,8 +20,6 @@
             <li  class="btn-primary">
                 <a href="{{ route('candidature') }}">Candidati ora</a>
             </li>
-
         </ul>
-
     </div>
 </header>

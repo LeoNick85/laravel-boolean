@@ -1,4 +1,38 @@
 footer {
     background-color: $main_color1;
     color: white;
+    padding: 70px 0px 30px 0px;
+    text-align: center;
+
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 15px;
+
+        img {
+            width: 200px;
+        }
+    }
+
+    .footer-right {
+        text-align: right;
+
+        ul {
+            padding-top: 20px;
+        }
+
+        ul li a {
+            font-size: 20px;
+        }
+
+        ul li a:hover {
+            color: inherit;
+            text-decoration: underline;
+        }
+    }
+
+    hr {
+        border-color: white;
+    }
 }
