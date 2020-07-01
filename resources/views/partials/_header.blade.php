@@ -2,22 +2,26 @@
     <img src=" {{ asset('img/logo.png') }}" alt="Logo Boolean">
     <div>
         <ul>
-            <li>
-                <a href="#">Home</a>
+            <li class="{{ Request::route()->getName() == 'homepage' ? 'active' : ' '}}">
+                <a href="{{ route('homepage') }}">Home</a>
             </li>
-            <li>
-                <a href="#">Corso</a>
+            <li class="{{ Request::route()->getName() == 'corso' ? 'active' : ' '}}">
+                <a href="{{ route('corso') }}">Corso</a>
             </li>
-            <li>
-                <a href="#">Dopo il corso</a>
+            <li class="{{ Request::route()->getName() == 'dopo' ? 'active' : ' '}}">
+                <a href="{{ route('dopo') }}">Dopo il corso</a>
             </li>
-            <li>
-                <a href="#">Lezione gratuita</a>
+            <li class="{{ Request::route()->getName() == 'lezione' ? 'active' : ' '}}">
+                <a href="{{ route('lezione') }}">Lezione gratuita</a>
             </li>
-            <li>
-                <a href="#">Assumi i nostri studenti</a>
+            <li class="{{ Request::route()->getName() == 'assunzioni' ? 'active' : ' '}}">
+                <a href="{{ route('assunzioni') }}">Assumi i nostri studenti</a>
             </li>
+            <li  class="btn-primary">
+                <a href="{{ route('candidature') }}">Candidati ora</a>
+            </li>
+
         </ul>
-        <button type="button" name="button">Candidati ora</button>
+
     </div>
 </header>

@@ -4,5 +4,5 @@ var $ = require('jquery');
 import "bootstrap";
 
 $(document).ready(function() {
-    alert("ciao");
+    // alert("ciao");
 })

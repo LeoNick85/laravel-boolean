@@ -1,0 +1,36 @@
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        height: 60px;
+        margin-left: 5px;
+    }
+
+    ul {
+        list-style-type: none;
+        display: inline-block;
+    }
+
+    ul li {
+        display: inline-block;
+        padding: 8px 20px;
+        margin: 15px 5px 0px 5px;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    ul li.active {
+        border-bottom: 2px solid $main_color2;
+    }
+
+    ul li:hover {
+        border-bottom: 2px solid $main_color2;
+    }
+
+    a {
+        padding: 8px;
+    }
+}

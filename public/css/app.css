@@ -10928,7 +10928,59 @@ a.text-dark:focus {
   }
 }
 
-body {
+.btn-primary {
+  background-color: #61ce4e;
+  color: white;
+  border-radius: 3px;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+header {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 60px;
+  margin-left: 5px;
+}
+
+header ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 8px 20px;
+  margin: 15px 5px 0px 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+header ul li.active {
+  border-bottom: 2px solid #61ce4e;
+}
+
+header ul li:hover {
+  border-bottom: 2px solid #61ce4e;
+}
+
+header a {
+  padding: 8px;
+}
+
+footer {
   background-color: #1b3c59;
+  color: white;
 }
 

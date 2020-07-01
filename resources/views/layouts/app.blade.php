@@ -9,6 +9,7 @@
     <body>
         @include('partials/_header')
         @yield('content');
+        @include('partials/_footer')
     </body>
     <script src=" {{ asset('js/app.js')}}" charset="utf-8"></script>
 </html>
